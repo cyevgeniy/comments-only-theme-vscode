@@ -1,0 +1,28 @@
+{
+	"name": "Comments only",
+	"colors": {
+		"editor.background": "#f9fafa",
+		"editor.foreground": "#333333",
+		"editorCursor.foreground": "#5fb4b4"
+	},
+	"tokenColors": [
+		{
+			"name": "Comments",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#2f8529"
+			}
+		},
+		{
+			"name": "Invalid - Illegal",
+			"scope": "invalid.illegal",
+			"settings": {
+				"foreground": "#f9ae58"
+			}
+		}
+	]
+}

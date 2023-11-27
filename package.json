@@ -1,0 +1,21 @@
+{
+  "name": "comments-only",
+  "displayName": "Comments only",
+  "description": "Color scheme without syntax highlighting",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Comments only",
+        "uiTheme": "vs",
+        "path": "./themes/Comments only-color-theme.json"
+      }
+    ]
+  }
+}
