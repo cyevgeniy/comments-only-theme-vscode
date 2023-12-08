@@ -3,7 +3,11 @@
 	"colors": {
 		"editor.background": "#f9fafa",
 		"editor.foreground": "#333333",
-		"editorCursor.foreground": "#5fb4b4"
+		"editorCursor.foreground": "#5fb4b4",
+		"activityBar.background": "#0000001a",
+		"activityBar.foreground": "#00000066",
+		"statusBar.background": "#00000055",
+		"statusBar.foreground": "#00000099"
 	},
 	"tokenColors": [
 		{
@@ -21,7 +25,7 @@
 			"name": "Invalid - Illegal",
 			"scope": "invalid.illegal",
 			"settings": {
-				"foreground": "#f9ae58"
+				"foreground": "#50c072"
 			}
 		}
 	]
